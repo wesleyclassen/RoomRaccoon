@@ -1,0 +1,29 @@
+{
+  "name": "wes/mvc",
+  "description": "MVC Project",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Wes\\Mvc\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "config": {
+    "platform-check": true,
+    "platform": {
+      "php": "8.2"
+    }
+  },
+  "authors": [
+    {
+      "name": "Wesley Classen",
+      "email": "wesley.classen@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  }
+}
