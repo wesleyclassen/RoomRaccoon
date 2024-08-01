@@ -32,26 +32,17 @@
             <td>Email</td>
             <td>
                 <label for="email">
-                    <input type="email" required name="email" value="<?= $data['email'] ?>"
-                           placeholder="<?= $data['email'] ?>">
+                    <input type="text" required name="email" value="<?= $data['description'] ?>"
+                           placeholder="<?= $data['description'] ?>">
                 </label>
             </td>
         </tr>
         <tr>
-            <td>Password</td>
+            <td>Price</td>
             <td>
                 <label>
-                    <input type="password" required name="password" value="<?= $data['password'] ?>"
-                           placeholder="<?= $data['password'] ?>">
-                </label>
-            </td>
-        </tr>
-        <tr>
-            <td>Role</td>
-            <td>
-                <label>
-                    <input type="text" required name="role" value="<?= $data['role'] ?>"
-                           placeholder="<?= $data['role'] ?>">
+                    <input type="text" required name="price" value="<?= $data['price'] ?>"
+                           placeholder="<?= $data['price'] ?>">
                 </label>
             </td>
         </tr>
